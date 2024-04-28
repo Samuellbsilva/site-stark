@@ -1,0 +1,433 @@
+:root {
+    --cortittle: rgb(109, 7, 7);
+    --corbody: white;
+    --corfooter: yellow;
+    --cortexto: black;
+}
+
+/* SECTION -  COMEÇO CABEÇALHO */
+a{
+    text-decoration: none;
+    color:white;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Share+Tech+Mono&display=swap');
+@media only screen and (max-device-width: 1080px) {
+    @keyframes rodaroda {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        50% {
+            transform: rotate(180deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    body {
+        height: 100%;
+        margin: 0PX;
+        padding: 0PX;
+    }
+
+    .COMEÇO {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        background-color: var(--cortittle);
+        height: 110PX;
+        margin: 0px;
+        padding-bottom: 5px;
+        display: inline-block;
+        flex-wrap: wrap;
+        border-bottom: 2px solid black;
+        border-top:2px solid black ;
+        border-LEFT:2px solid rgb(0, 0, 0);
+        border-right:2px solid rgb(0, 0, 0);
+        display: flex;
+        
+    }
+
+
+
+    .Logo {
+        width: 80px;
+        height: 80px;
+        margin: 2PX;
+        text-align: center;
+        align-items: center;
+        box-shadow: white 0px 3px 35px 2px;
+        border-radius: 50px;
+        position: relative;
+margin-left:363px;
+
+
+
+
+    }
+
+    .ArmadurasStark {
+        margin: 0px;
+        padding-top: 0px;
+        padding-right: 20px;
+        height: 0%;
+        text-align: center;
+        font-size: 17px;
+        font-family: 'Share Tech Mono', monospace;
+        color: white;
+        font: weight 10px;
+        text-shadow: rgb(0, 0, 0) 20px 20px 0px 20px;
+        position: relative;
+        margin-left:305px;
+        width: 200px;
+    }
+
+    
+
+    .Logo:hover {
+
+        animation: rodaroda 3.0s linear infinite;
+    }
+
+    .Logo-site {
+    align-items: center;
+        width: 25%;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .menu {
+        text-align: left;
+        margin: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .links {
+        height: 100%;
+        text-align: left;
+    
+        padding: 0px;
+        font-size: 25px;
+        color: #f9f9f9;
+        text-shadow: rgb(5, 5, 5) 10px 10px 10px 10px;
+     width: 100px;
+     position: relative;
+
+    }
+
+    .dropdown {
+       text-align: left;
+       display: inline-block;
+        color: rgb(255, 255, 255);
+        text-shadow: white 10px 10px 10px 10px;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 25px;
+        text-decoration: none;
+       background-color: rgba(0, 0, 0, 0.884);
+       padding: 4px;
+       border-radius: 10px;
+       box-shadow: white 0px 1px 15px 1px;
+       margin-top: 50px;
+       margin-left: 10px;
+    }   
+    .produzido{
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+    .dropdown-content {
+        text-decoration: none;
+        display: none;
+        position: absolute;
+        background-color: #000000b6;
+        min-width: 160px;
+        box-shadow: 8px 17px 25px 0px rgba(255, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 2;
+        font-size: 20px;
+     border-radius: 5px;
+     border-left: solid 10px rgb(0, 0, 0) ;
+color: white;
+font-family: 'Allerta Stencil', sans-serif;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+        transition: 5s;
+        color: white;
+        text-decoration: none;
+    }
+
+    .p {
+        border-bottom: 4px solid rgb(0, 0, 0);
+        padding-top: 5PX;
+        padding-left: 5PX;
+        padding-right: 5PX;
+        padding-bottom: 10PX;
+        margin: 0PX;
+        text-decoration: none;
+        color: white;
+    }
+    .p:hover{
+
+        font-size:21PX;
+    }
+
+    /* SECTION -  FIM CABEÇALHO */
+
+/*MAin - Inicio */
+
+.main{
+    background-image: url(fundo6.png);
+background-size: 990px;
+margin-top: 0px;
+height: 1550px;
+
+width:100%;
+background-repeat: no-repeat;
+
+background-position: fixed;
+display: inline-block;
+flex-direction: column;
+min-height: 100%;
+}
+.bemvindo{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+   margin: 0px;
+    padding-left: 250px;
+    width: 500px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    font-size: 22px;
+    text-align: center;
+
+    margin-bottom: 10px;
+
+    margin: 5px;
+    text-shadow: 0px 8px 8.5px  rgba(0, 0, 0, 0.233);
+  
+}
+.bemvindo::first-letter{
+    font-size: 40px;
+    color: red;
+    text-shadow: 0px 8px 8.5px  rgba(255, 0, 0, 0.623);
+
+
+}
+.bemvindo2{
+    font-family: Arial, Helvetica, sans-serif;
+
+  width: 590px;
+  text-align: center;
+  padding-left: 175px;
+  margin-top: 0px;
+  padding-top: 10px;
+  font-size: 22px;
+  text-shadow: 0px 8px 8.5px  rgba(0, 0, 0, 0.247);
+}
+.bemvindo2::first-letter{
+    font-size: 30px;
+    color: red;
+    text-shadow: 0px 8px 8.5px  rgba(255, 0, 0, 0.719);
+
+
+}
+
+.bemvindo3{
+    font-family: Arial, Helvetica, sans-serif;
+
+  width: 570px;
+  text-align: center;
+  padding-left: 225px;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 22px;
+  text-shadow: 0px 8px 8.5px  rgba(0, 0, 0, 0.247);
+}
+.bemvindo3::first-letter{
+    font-size: 30px;
+    color: red;
+    text-shadow: 0px 8px 8.5px  rgba(255, 0, 0, 0.719);
+
+
+}
+.bemvindo4{
+    font-family: Arial, Helvetica, sans-serif;
+
+  width: 300px;
+  text-align: justify;
+  padding-left: 225px;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 22px;
+  text-shadow: 0px 8px 8.5px  rgba(0, 0, 0, 0.247);
+}
+.bemvindo4::first-letter{
+    font-size: 30px;
+    color: red;
+    text-shadow: 0px 8px 8.5px  rgba(255, 0, 0, 0.719);
+
+
+}
+
+
+
+
+/*Main - Fim */
+
+
+
+
+    /*Footer -  Inicio rodape */
+    .footer1 {
+    
+        text-align: end;
+        text-align: center;
+        background-color: var(--cortittle);
+        bottom: 0px;
+        width: 100%;
+        padding: 10PX;
+        margin-top: auto;
+        height: 135px;
+        color: white;
+        font-size: 12PX;
+      text-shadow:white 5px 3px 20px 1px;
+        color: rgba(255, 255, 255, 0.322);
+        font-family:'Allerta Stencil', sans-serif;
+        box-shadow: white 0px 1px 15px 1px;
+    }
+
+    .sobreeempresa {
+        text-decoration: none;
+        border: none;
+        padding: 2px;
+        text-shadow:white 5px 3px 20px 1px;
+    }
+
+    .rodapecontato {
+        text-decoration: none;
+        list-style: none;
+        padding: 2px;
+        background-color: black;
+        border-radius: 5PX;
+        padding: 4px;
+    }
+
+    }
+
+    .TEXTO-RODAPE2{
+        font-size: 12PX;
+      
+        color: rgba(255, 255, 255, 0.322);
+        font-family:'Allerta Stencil', sans-serif;
+    }
+
+.redes-sociais{
+    width: 35px;
+    height:35px;
+}
+
+
+
+
+
+    /*Footer - Fim rodape */
+
+html
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armaduras Marks</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <! direcionamento da página>
+        <link rel="icon" id="favicon" href="Logo Site.png.png" type="image">
+        <!favicon>
+
+
+</head>
+
+
+<body>
+    <section class="COMEÇO">
+        <! começo site>
+        <nav class="links">
+            <div class="dropdown">
+                <span style=" color:white;">HOME</span>
+                <div class="dropdown-content">
+                   <p class="produzido">ACESSE TAMBÉM</p>
+                    <p class="p"><a href="armadurasclassicas.html" >Armaduras Classicas</a></p>
+                    <p class="p"><a href="armadurasnovas.html">Armaduras Novas</a></p>
+                    <p class="p"><a href="tony.html">Tony <br>Stark</a></p>
+             
+                </div>
+            </div>
+
+  
+        </nav>
+            <div class="Logo-site">
+                <!Logo site>
+
+
+                    <img class="Logo" Src="https://img.ibxk.com.br/2015/04/08/08120838796439.gif" alt="LOGO SITE"><br>
+                    <p class="ArmadurasStark">Armaduras Stark</p>
+            </div>
+
+          
+       
+    </section>
+
+    <! meio site>
+
+    <main class="main">
+     
+<p class="bemvindo"> Neste universo repleto de inovação e tecnologia de ponta, é um prazer recebê-lo em nosso site. Aqui, você <span class="alt">encontrará o auge da engenharia e design de armaduras, criadas para atender às mais exigentes demandas de super-heróis modernos, aventureiros ousados e visionários destemidos.Na Armaduras Stark, nossa missão é proporcionar a você a experiência definitiva em proteção pessoal, combinando estilo incomparável com funcionalidade avançada. Somos apaixonados por transformar sonhos em realidade, e é por isso que cada uma de nossas armaduras é meticulosamente projetada, construída e testada para atingir os mais altos padrões de desempenho e confiabilidade. </p>
+<p class="bemvindo2">Com a tecnologia de ponta alimentando cada uma de nossas criações, você terá acesso a recursos inovadores e avançados, como sistemas de inteligência artificial, propulsão a jato, armamento sofisticado e uma resistência formidável. Nossas armaduras são verdadeiras extensões do poder humano, permitindo que você supere seus limites e alcance novos patamares de habilidade e eficiência.Estamos constantemente empenhados em melhorar e aprimorar nossos produtos para garantir que você esteja sempre um passo à frente em qualquer desafio. Ao escolher a Armaduras Stark, você está escolhendo a excelência em engenharia e inovação. Nossos designs únicos e personalizáveis oferecem uma combinação perfeita entre estilo individual e desempenho incomparável.</p>
+<p class="bemvindo3">Navegue por nosso catálogo e descubra uma ampla variedade de modelos para se adequar ao seu estilo e necessidades. Seja você um protetor da justiça, um explorador dos limites da humanidade ou um visionário visionando um futuro melhor, temos a armadura perfeita para você. E caso não encontre exatamente o que procura, nossa equipe dedicada estará pronta para trabalhar lado a lado com você para criar uma armadura personalizada que se adapte perfeitamente às suas expectativas.Na Armaduras Stark, valorizamos a segurança e a satisfação do cliente acima de tudo. Nossa equipe de suporte está disponível para responder a todas as suas perguntas e fornecer orientações especializadas, garantindo que sua jornada conosco seja excepcional em todos os sentidos.Prepare-se para elevar sua experiência de heroísmo e aventura a um novo patamar. Explore a grandiosidade da tecnologia Stark e mergulhe em um mundo de possibilidades. Junte-se a nós hoje mesmo e torne-se parte da elite dos super-heróis modernos!</p>
+    <p class="bemvindo4" >Com armaduras Stark, o futuro está ao seu alcance.
+        <span style="color: red; font-size: 24px;">Tony Stark <br>
+        CEO e Fundador <br> da Armaduras Stark</span></p>
+</main>
+
+
+    <footer class="footer1">
+        <! fim do site>
+
+            <div class="sobreempresa">
+                <p class="TEXTO-RODAPE2">PRODUZIDO POR P-P-ENTERPRISES</p>
+
+
+                <p><A href="paginadecontato.html" class="rodapecontato">CONTATE-NOS </A></p>
+
+
+
+<img src="Black-Github-Logo-PNG-Image.png" alt="GitHub " class="redes-sociais"> 
+<img src="instagram-logo-3.png" alt="Instagram " class="redes-sociais">
+<p class="TEXTO-RODAPE1">Stark-Emprises &#169</p> 
+            </div>
+
+
+
+    </footer>
+
+</body>
+ #ad2620
+</html>

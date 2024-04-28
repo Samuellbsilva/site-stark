@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Share+Tech+Mono&display=swap');
+
+    @keyframes rodaroda {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        50% {
+            transform: rotate(180deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    a{
+      text-decoration: none;
+      color:white;
+  }
+    body {
+        background-color: none;
+        border: none;
+        outline: 0;
+      
+        height: 100%;
+        margin: 5PX;
+        padding: 0PX;
+        width: 100vw;
+    }
+    main{
+        background-image: url(NOVAS\ \(4\).png);
+        background-size:100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        
+        width:100vw;
+        background-repeat: no-repeat;
+        
+        
+        display: inline-block;
+        flex-direction: column;
+        min-height: 100%;
+      }
+    .COMEÇO {
+        text-align: center;
+        align-items: center;
+        width: 100vw;
+        background: radial-gradient(circle, rgba(0,0,0,1) 16%, rgb(37, 35, 35) 51%);
+        animation: AnimationName1 16s linear infinite;
+        background-size: 400% 400%; 
+        height: 110PX;
+        margin: 0px;
+        padding-bottom: 5px;
+        display: inline-block;
+        flex-wrap: wrap;
+        border-bottom: 2px solid black;
+        border-top:2px solid black ;
+        border-LEFT:2px solid rgb(0, 0, 0);
+        border-right:2px solid rgb(0, 0, 0);
+        display: flex;
+      
+    }
+
+ 
+    .Logo {
+        width: 80px;
+        height: 80px;
+        margin: 2PX;
+        text-align: center;
+        align-items: center;
+        box-shadow: white 0px 3px 35px 2px;
+        border-radius: 50px;
+        position: relative;
+        margin-left: 160%;
+
+
+
+
+    }
+
+    .ArmadurasStark {
+        margin: 0px;
+        padding-top: 0px;
+        padding-right: 20px;
+        height: 0%;
+        text-align: center;
+        font-size: 17px;
+        font-family: 'Share Tech Mono', monospace;
+        color: white;
+        font: weight 10px;
+        text-shadow: rgb(0, 0, 0) 20px 20px 0px 20px;
+        position: relative;
+        margin-left: 142%;
+        width: 200px;
+    }
+
+    
+
+    .Logo:hover {
+
+        animation: rodaroda 3.0s linear infinite;
+    }
+
+    .Logo-site {
+    align-items: center;
+        width: 25%;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .menu {
+        text-align: left;
+        margin: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .links {
+        height: 100%;
+        text-align: left;
+    
+        padding: 0px;
+        font-size: 25px;
+        color: #f9f9f9;
+        text-shadow: rgb(5, 5, 5) 10px 10px 10px 10px;
+     width: 100px;
+     position: relative;
+
+    }
+
+    .dropdown {
+       text-align: left;
+       display: inline-block;
+        color: rgb(255, 255, 255);
+        text-shadow: white 10px 10px 10px 10px;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 25px;
+        text-decoration: none;
+        background: rgb(0,0,0);
+      
+       padding: 7px;
+       border-radius: 10px;
+       box-shadow: white 0px 1px 12px ;
+       margin-top: 50px;
+       margin-left: 10px;
+    }   
+    .dropdown:hover{
+        transform: scale(1.025); ;
+    }
+    .produzido{
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+    .dropdown-content {
+        text-decoration: none;
+        display: none;
+        position: absolute;
+        background-color: #000000e1;
+        min-width: 160px;
+        box-shadow: 8px 17px 25px 0px rgba(255, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 2;
+        font-size: 20px;
+     border-radius: 5px;
+     border-left: solid 10px rgb(0, 0, 0) ;
+color: white;
+font-family: 'Allerta Stencil', sans-serif;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+        transition: 5s;
+        color: white;
+        text-decoration: none;
+       margin-left: 0px;
+      
+    }
+
+    .p {
+        border-bottom: 4px solid rgb(0, 0, 0);
+        padding-top: 5PX;
+        padding-left: 5PX;
+        padding-right: 5PX;
+        padding-bottom: 10PX;
+        margin: 0PX;
+        text-decoration: none;
+        color: white;
+    }
+    .p:hover{
+        background: rgb(0,0,0);
+        background: linear-gradient(117deg, rgba(0,0,0,0) 32%, rgba(255, 0, 0, 0.342) 100%);
+        border-radius: 7px;
+        font-size:21PX;
+    }
+    body {
+        background-color: none;
+        border: none;
+        outline: 0;
+       
+        height: 100%;
+        margin: 0PX;
+        padding: 0PX;
+        width: 1025px;
+     
+    }
+    /*MAin - Inicio */
+
+    .main-NOVAS{
+        background-image: url(NOVAS\ \(4\).png);
+    background-size: 1167px;
+    
+    padding-bottom: 100px;
+    height: 100%;
+    
+    width:1025px;
+    background-repeat: no-repeat;
+    
+    
+    display: inline-block;
+    flex-direction: column;
+    min-height: 100%;
+    }
+    
+.main-classicas{
+    background-image: url(Classicas1.png);
+background-size: 100vw;
+
+padding-bottom: 100px;
+height: 100%;
+
+width:100vw;
+background-repeat: no-repeat;
+
+
+display: inline-block;
+flex-direction: column;
+min-height: 100%;
+}
+
+.button {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 20PX 5PX 20PX;
+    font-size: 30px;
+
+    padding: 10PX;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 25px black;
+}
+
+.button:hover {
+    border-radius: 20PX 5PX;
+
+    box-shadow: 10px 10px 15px black;
+
+    background: linear-gradient(117deg, rgba(0, 0, 0, 1) 0%, rgba(113, 10, 10, 1) 100%);
+    background-size: 200% 200%;
+    animation: AnimationName 2s linear infinite;
+   
+}
+    /*Footer -  Inicio rodape */
+    .footer1 {
+    
+        text-align: center;
+        background: radial-gradient(circle, rgba(0,0,0,1) 16%, rgb(37, 35, 35) 51%);
+        animation: AnimationName1 16s linear infinite;
+        background-size: 400% 400%; 
+        bottom: 0px;
+      width: 100vw;
+        padding: 10PX;
+        margin-top: auto;
+        height: 135px;
+        color: white;
+        font-size: 12PX;
+      text-shadow:white 5px 3px 20px 1px;
+        color: rgba(255, 255, 255, 0.322);
+        font-family:'Allerta Stencil', sans-serif;
+      
+    }
+
+    .sobreeempresa {
+        text-decoration: none;
+        border: none;
+        padding: 2px;
+        text-shadow:white 5px 3px 20px 1px;
+    }
+
+    .rodapecontato {
+        text-decoration: none;
+        list-style: none;
+        padding: 2px;
+        background-color: black;
+        border-radius: 5PX;
+        padding: 4px;
+    }
+
+    
+
+    .TEXTO-RODAPE2{
+        font-size: 12PX;
+      
+        color: rgba(255, 255, 255, 0.322);
+        font-family:'Allerta Stencil', sans-serif;
+    }
+
+.redes-sociais{
+    width: 35px;
+    height:35px;
+    border-radius: 20px;
+
+}
+.redes-sociais:hover{
+    transform: skew(-5deg,-5deg);
+
+}
+
+
+
+
+
+    /*Footer - Fim rodape */
